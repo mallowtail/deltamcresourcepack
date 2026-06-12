@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1008,
+        "model": {
+          "type": "minecraft:model",
+          "model": "advancednetherite:item/netherite_iron_helmet"
+        }
+      },
+      {
+        "threshold": 2008,
+        "model": {
+          "type": "minecraft:model",
+          "model": "advancednetherite:item/netherite_gold_helmet"
+        }
+      },
+      {
+        "threshold": 3008,
+        "model": {
+          "type": "minecraft:model",
+          "model": "advancednetherite:item/netherite_emerald_helmet"
+        }
+      },
+      {
+        "threshold": 4008,
+        "model": {
+          "type": "minecraft:model",
+          "model": "advancednetherite:item/netherite_diamond_helmet"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_helmet"
+    }
+  }
+}

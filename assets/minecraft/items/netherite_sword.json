@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1002,
+        "model": {
+          "type": "minecraft:model",
+          "model": "advancednetherite:item/netherite_iron_sword"
+        }
+      },
+      {
+        "threshold": 2002,
+        "model": {
+          "type": "minecraft:model",
+          "model": "advancednetherite:item/netherite_gold_sword"
+        }
+      },
+      {
+        "threshold": 3002,
+        "model": {
+          "type": "minecraft:model",
+          "model": "advancednetherite:item/netherite_emerald_sword"
+        }
+      },
+      {
+        "threshold": 4002,
+        "model": {
+          "type": "minecraft:model",
+          "model": "advancednetherite:item/netherite_diamond_sword"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_sword"
+    }
+  }
+}
