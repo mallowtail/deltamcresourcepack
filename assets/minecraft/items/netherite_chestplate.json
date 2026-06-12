@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1009,
+        "model": {
+          "type": "minecraft:model",
+          "model": "advancednetherite:item/netherite_iron_chestplate"
+        }
+      },
+      {
+        "threshold": 2009,
+        "model": {
+          "type": "minecraft:model",
+          "model": "advancednetherite:item/netherite_gold_chestplate"
+        }
+      },
+      {
+        "threshold": 3009,
+        "model": {
+          "type": "minecraft:model",
+          "model": "advancednetherite:item/netherite_emerald_chestplate"
+        }
+      },
+      {
+        "threshold": 4009,
+        "model": {
+          "type": "minecraft:model",
+          "model": "advancednetherite:item/netherite_diamond_chestplate"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_chestplate"
+    }
+  }
+}
